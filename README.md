@@ -118,6 +118,7 @@ See this [tutorial on YAML](https://rollout.io/blog/yaml-tutorial-everything-you
 
 ### Configure Title & Summary
   - Replace `Title`, with your desired title, and `Awesome summary` with your desired summary.
+  
 
 **Note:** It is recommended to enclose these values in double quotes, so that you can escape colons and other characters that may break the YAML parser.
 

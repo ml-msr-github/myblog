@@ -6,12 +6,9 @@ layout: home
 search: exclude
 ---
 
-This site is built with [fastpages](https://github.com/fastai/fastpages), An easy to use blogging platform with extra features for Jupyter Notebooks.
+Welcome to my blog [PixelShuffle](https://github.com/KeremTurgutlu/myblog): A blog about **machine learning**, **deep learning** and **other cool stuff**.
 
-![](images/diagram.png "https://github.com/fastai/fastpages")
+<img src="https://media.giphy.com/media/pVGsAWjzvXcZW4ZBTE/giphy.gif" alt="placeholder for a cool image" width="680" height="350" class="center">
 
-[fastpages](https://github.com/fastai/fastpages) automates the process of creating blog posts via GitHub Actions, so you don't have to fuss with conversion scripts.  A full list of features can be found on [GitHub](https://github.com/fastai/fastpages).  
-
-You can edit the `index.md` file to change this content.
 
 # Posts

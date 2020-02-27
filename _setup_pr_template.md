@@ -1,37 +1,18 @@
-<<<<<<< HEAD
 Hello :wave: @KeremTurgutlu!  Thank you for using fastpages!  
-=======
-Hello :wave: @{_username_}!  Thank you for using fastpages!  
->>>>>>> upstream/master
 
 ## Before you merge this PR
 
 1. Create an ssh key-pair.  Open <a href="https://8gwifi.org/sshfunctions.jsp" target="_blank">this utility</a>. Select: `RSA` and `4096` and leave `Passphrase` blank.  Click the blue button `Generate-SSH-Keys`.
 
-<<<<<<< HEAD
-2. Navigate to <a href="https://github.com/KeremTurgutlu/myblog/settings/secrets" target="_blank">this link</a> and click `Add a new secret`.  Copy and paste the **Private Key** into the `Value` field. In the `Name` field, name the secret `SSH_DEPLOY_KEY`.  
-
-3. Navigate to <a href="https://github.com/KeremTurgutlu/myblog/settings/keys" target="_blank">this link</a> and click the `Add deploy key` button.  Paste your **Public Key** from step 1 into the `Key` box.  In the `Title`, name the key anything you want, for example `fastpages-key`.  Finally, **make sure you click the checkbox next to `Allow write access`** (pictured below), and click `Add key` to save the key.
-=======
 2. Navigate to <a href="https://github.com/{_username_}/{_repo_name_}/settings/secrets" target="_blank">this link</a> and click `Add a new secret`.  Copy and paste the **Private Key** into the `Value` field. In the `Name` field, name the secret `SSH_DEPLOY_KEY`.  
 
 3. Navigate to <a href="https://github.com/{_username_}/{_repo_name_}/settings/keys" target="_blank">this link</a> and click the `Add deploy key` button.  Paste your **Public Key** from step 1 into the `Key` box.  In the `Title`, name the key anything you want, for example `fastpages-key`.  Finally, **make sure you click the checkbox next to `Allow write access`** (pictured below), and click `Add key` to save the key.
->>>>>>> upstream/master
 
 ![](_checkbox.png)
 
 
 ### What to Expect After Merging This PR
 
-<<<<<<< HEAD
-- GitHub Actions will build your site, which will take 3-4 minutes to complete.  **This will happen anytime you push changes to the master branch of your repository.**  You can monitor the logs of this if you like on the [Actions tab of your repo](https://github.com/KeremTurgutlu/myblog/actions).
-- Your GH-Pages Status badge on your README will eventually appear and be green, indicating your first sucessfull build.
-- You can monitor the status of your site in the GitHub Pages section of your [repository settings](https://github.com/KeremTurgutlu/myblog/settings).
-
-If you are not using a custom domain, your website will appear at: 
-
-#### https://KeremTurgutlu.github.io/myblog
-=======
 - GitHub Actions will build your site, which will take 3-4 minutes to complete.  **This will happen anytime you push changes to the master branch of your repository.**  You can monitor the logs of this if you like on the [Actions tab of your repo](https://github.com/{_username_}/{_repo_name_}/actions).
 - Your GH-Pages Status badge on your README will eventually appear and be green, indicating your first sucessfull build.
 - You can monitor the status of your site in the GitHub Pages section of your [repository settings](https://github.com/{_username_}/{_repo_name_}/settings).
@@ -39,7 +20,6 @@ If you are not using a custom domain, your website will appear at:
 If you are not using a custom domain, your website will appear at: 
 
 #### https://{_username_}.github.io/{_repo_name_}
->>>>>>> upstream/master
 
 
 ## Optional: Using a Custom Domain

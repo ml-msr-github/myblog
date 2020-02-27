@@ -7,6 +7,9 @@ RUN dpkg -i pandoc-2.9.1.1-1-amd64.deb
 RUN pip install jupyter watchdog[watchmedo] jupyter_client ipykernel jupyter
 RUN python3 -m ipykernel install --user
 RUN pip install nbdev
+RUN pip install jupyter_contrib_nbextensions
+RUN jupyter contrib nbextension install --user
+RUN jupyter nbextension enable spellchecker/main
 
 WORKDIR /fastpages
 COPY . .

@@ -13,8 +13,8 @@ github_username: KeremTurgutlu
 github_repo: "myblog"
 
 # OPTIONAL: override baseurl and url if using a custom domain
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. "/blog".  WARNING: if you are not using a custom domain, the baseurl *must* be set to your repo name.
+url: "https://KeremTurgutlu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/myblog" # the subpath of your site, e.g. "/blog".  WARNING: if you are not using a custom domain, the baseurl *must* be set to your repo name.
 
 # Email and twitter are optional:
 email: keremturgutlu@gmail.com  
